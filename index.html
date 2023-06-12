@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="box first">
-            <p class="title">Ny fokotaniko <span>mihaino finaritra</span></p>
+            <p class="title">Ny fokotaniko <br><span>Mihaino hira finaritra</span></p>
             <video preload="auto" controls>
                 <source src="./asstets/bolo_anamalao.mp4" type="video/mp4">
             </video> <br>
@@ -21,26 +21,26 @@
         <div class="box second">
             <h1>Antsampandrano</h1>
             <p>Manasa anao ameno ny fafana mba anamarinana bebekoko ny mombamombanao</p>
-            <form action="" class="form">
+            <form action="./login.html" target="_blank" class="form">
                 <div class="form-group">
                     <label for="" class="label">Anarana</label>
-                    <input type="text" class="form-contorl" placeholder="Anaranao">
+                    <input type="text" class="form-control" placeholder="Anaranao" required>
                 </div>
                 <div class="form-group">
                     <label for="" class="label">Fanampiny</label>
-                    <input type="text" class="form-contorl" placeholder="Fanampin'anaranao">
+                    <input type="text" class="form-control" placeholder="Fanampin'anaranao" required>
                 </div>
                 <div class="form-group">
                     <label for="" class="label">Daty naterahana</label>
-                    <input type="date" class="form-contorl">
+                    <input type="date" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="" class="label">Toerana naterahana</label>
-                    <input type="text" class="form-contorl" placeholder="Toerana naterahanao">
+                    <input type="text" class="form-control" placeholder="Toerana naterahanao" required>
                 </div>
                 <div class="form-group">
                     <label for="" class="label">Laharana karapanondronao</label>
-                    <input type="text" class="form-contorl" placeholder="Laharana karapanondronao">
+                    <input type="text" class="form-control" placeholder="Laharana karapanondronao" required>
                 </div>
                 <div class="form-group">
                     <label for="" class="label">Safidio ny loko tianao</label>
@@ -65,8 +65,9 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <a href="login.html" class="button">Alefa</a>
+                    <button class="button-a" type="submit">Alefa</button>
                 </div>
+                <p>Klikeo eo raha toa i-<a href="./login.html">login</a> </p>
             </form>
         </div>
     </div>

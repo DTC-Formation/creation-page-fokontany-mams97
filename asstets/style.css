@@ -1,35 +1,82 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
     background-color: #EAC435;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container {
     width: 1000px;
-    height: 500px;
-    padding: 0;
+    height: 550px;
     margin: auto;
-    border: black 1px solid;
+    margin-top: 70px;
+    background: white;
 }
 .box {
-    display: inline-block;
-    flex-direction: row;
-}
+        display: inline-block;
+        vertical-align: top;
+    }
 .first {
-    width: 350px;
+    width: 400px;
+    height: 550px;
     background: #345995;
     padding-left: 20px;
     margin: 0;
+    color: white;
 }
+
 .second {
     background: white;
-    width: 450px;
+    width: 550px;
+    height: 500px;
     padding-left: 20px;
     margin: 0;
 }
 video {
     width: 300px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+audio {
+    margin-left: 30px;
+}
+.form-group {
+    margin-bottom: 5px;
+    width: 300px;
 }
 .form-control, .label {
     display: block;
+}
+.label {
+    color: rgb(107, 106, 106);
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.3em;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background: lightgray;
+}
+.button-a {
+    background: #E40066;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.button-a a {
+    text-decoration: none;
+    color: white;
+}
+.button-a :hover {
+    background: #fdfdfd;
+    color: #E40066;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #E40066;
+    border-radius: 10px;
+}
+span {
+    font-size: 50px;
 }
